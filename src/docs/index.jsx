@@ -43,7 +43,7 @@ const Table = ({ headers, data }) => (
 const Home = () => (
   <DemoPage title="Home">
     <h2 className="page__subtitle">
-      This is a demo of React Router - Keyboardist
+      This is a demo of React Router + Keyboardist
     </h2>
 
     <div className="about">
@@ -56,6 +56,18 @@ const Home = () => (
         </a>{' '}
         <code>KeyboardRoute</code>.
       </p>
+
+      <p>
+        The reasoning for this is{' '}
+        <a href="https://armandososa.org/2018/6/12/react-router-plus-keyboardist/">
+          in this blog post
+        </a>{' '}
+        post and the code for this demo{' '}
+        <a href="https://github.com/soska/react-router-plus-keyboardist/blob/master/src/docs/index.jsx">
+          is right here on Github
+        </a>{' '}
+      </p>
+
       <p>
         You can always return to this screen by pressing <code>H</code> on your
         keyboard

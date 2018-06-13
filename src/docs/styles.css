@@ -118,3 +118,7 @@ td {
   border: 1px solid #abc;
   margin: 11px;
 }
+
+.about p {
+  margin-bottom: 22px;
+}
