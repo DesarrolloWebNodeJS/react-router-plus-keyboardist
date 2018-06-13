@@ -188,7 +188,7 @@ const Comments = () => (
 const Search = () => <DemoPage title="Comments">Search</DemoPage>;
 
 let DemoApp = props => (
-  <Router>
+  <Router basename={'/react-router-plus-keyboardist'}>
     <div className="demo">
       <div className="nav">
         <Link to="/">
