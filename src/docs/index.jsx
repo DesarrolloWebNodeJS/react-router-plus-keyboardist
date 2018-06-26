@@ -50,7 +50,7 @@ const Home = () => (
       <p>
         This fake dashboard was built using <code>React</code> and{' '}
         <code>React Router</code>, only that instead of using the built-in Route
-        component it's using{' '}
+        component it is using{' '}
         <a href="http://github.com/soska/react-router-plus-keyboardist">
           react-router-plus-keyboardist
         </a>{' '}
